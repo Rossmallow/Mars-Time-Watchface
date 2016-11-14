@@ -1,0 +1,42 @@
+{
+    "author": "rossn430@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "mars-time-watchface",
+    "pebble": {
+        "displayName": "Mars Time Watchface",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Mars_Menu",
+                    "menuIcon": true,
+                    "name": "MENU",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/Mars_Background",
+                    "name": "BACKGROUND",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "1b5d0ad5-7729-4ead-baae-f734c2734ee9",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
